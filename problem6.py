@@ -7,6 +7,6 @@ def squareofsums(y):
     sums = sums/2
     sums = sums**2
     return int(sums)
-def difference():
-    return squareofsums(100) - sumofsquares(100)
-print(difference())
+def difference(a):
+    return squareofsums(a) - sumofsquares(a)
+print(difference(100))
